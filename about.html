@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bs.min.css">
+    <link rel="stylesheet" href="./css/assets.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Vistya</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet" />
+
+    <!----icons google-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fancy box images -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen" />
+</head>
+
+<body>
+
+
+    <div class="d-none d-lg-block nav-top-bg">
+        <div class="container px-2 px-lg-0">
+            <div class="d-flex align-items-center">
+                <div class="me-lg-auto d-flex">
+                    <a href="#?" class="d-flex text-white align-items-center me-2 fw-semibold">
+                        <span class="material-symbols-outlined me-1">
+                            schedule
+                        </span>
+                        <p class="mb-0">Hours: Mon-Fri: 8AM - 7PM</p>
+                    </a>
+                    <a href="#?" class="d-flex text-white align-items-center me-2 fw-semibold">
+                        <span class="material-symbols-outlined me-1">
+                            location_on
+                        </span>
+                        <p class="mb-0">22-A Vistya , USA</p>
+                    </a>
+                </div>
+
+                <!-- <form class="d-flex shadow rounded-4 bg-white align-items-center pe-2 me-3 py-1" role="search">
+                    <input class="form-control rounded-start-4" type="search" placeholder="Search"
+                        aria-label="Search" />
+                    <span class="material-symbols-outlined rounded-end-4">
+                        search
+                    </span>
+                </form>
+                <a href="user.html" class="btn sg-btn rounded-pill text-cl fw-medium me-3">Sign In</a> -->
+                <div class="social_icons d-flex me-3">
+                    <a class="btn-floating m-1 socail_icon" href="#?"><i class="fab fa-facebook-f text-white"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn-floating m-1 socail_icon" href="#?"><i class="fab fa-x-twitter text-white"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn-floating m-1 socail_icon" href="#?"><i class="fab fa-youtube text-white"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn-floating m-1 socail_icon" href="#?"><i class="fab fa-instagram text-white"></i></a>
+                </div>
+                <a href="contact.html" class="btn rounded-0 fw-bold me-3 sub-bg get-ap">Get Appointment</a>
+            </div>
+        </div>
+    </div>
+    <!-- main header -->
+    <div class="container-fluid sticky-top pt-2 bg-white">
+        <div class="container py-3">
+            <div class="row px-2">
+                <nav class="navbar navbar-expand-lg py-0 bgs-nav rounded-3 mb-2">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <!-- <img src="./assets/images/logo-vl.png" alt="" class="img-fluid rounded-circle me-2  " width="70" height="70"> -->
+                        <h2 class="text-cl fw-semibold mb-0">Vistya</h2>
+                    </a>
+                    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-ibd justify-content-lg-end" id="navbarSupportedContent">
+                        <!-- mx-lg-auto | -->
+                        <ul class="navbar-nav mb-2 mb-lg-0 nav-uls  pe-2">
+                            <li class="nav-item nav-br text-lg-center">
+                                <a class="nav-link text-cl fw-semibold" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item nav-br text-lg-center">
+                                <a class="nav-link text-cl fw-semibold text-capitalize" href="about.html"> About</a>
+                            </li>
+                            <li class="nav-item nav-br text-lg-center">
+                                <a class="nav-link text-cl fw-semibold text-capitalize" href="services.html"> Services</a>
+                            </li>
+                            <li class="nav-item nav-br text-lg-center">
+                                <a class="nav-link text-cl fw-semibold text-capitalize" href="pricing.html"> Pricing</a>
+                            </li>
+                            <li class="nav-item nav-br text-lg-center">
+                                <a class="nav-link text-cl fw-semibold text-capitalize" href="testimonials.html"> Testimonials</a>
+                            </li>
+                            <li class="nav-item nav-br text-lg-center">
+                                <a class="nav-link text-cl fw-semibold text-capitalize" href="contact.html"> Contact
+                                    Us</a>
+                            </li>
+
+                            <!-- <li class="nav-item nav-br text-lg-center">
+                                <a class="nav-link text-cl fw-semibold" href="#?">Contact Us</a>
+                            </li> -->
+                        </ul>
+
+                        <div class="d-flex align-items-center m-2">
+                            <!-- <a href="user.html" class="btn nav-sgs rounded-pill text-cl fw-medium px-4 ms-2">Sign
+                                In</a> -->
+                            <span class="material-symbols-outlined me-lg-3 d-lg-block d-none">
+                                search
+                            </span>
+                            <span class="material-symbols-outlined d-lg-block d-none">
+                                sort
+                            </span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- about section starts -->
+    <section class="nav-top-bg py-3">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-12 col-lg-6 my-md-auto">
+                    <div class="abts-main">
+                        <h5 class="sub-text fw-bold">About</h5>
+                        <h1 class="text-white mb-4 display-2 fw-">
+                            <span class="">Vistya </span>Property <br />
+                            Management Services For NRI'S
+                        </h1>
+
+                        <div class="ap-info mb-3">
+                            <a href="contact.html" class="btn sub-bg get-ap fw-bold rounded-0">Get Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-lg-block d-none my-md-auto">
+                    <div class="img-inner rounded-4">
+                        <img src="./assets/images/About.jpg" alt="" class="img-fluid w-100 rounded-4" />
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about section starts -->
+    <section class="pb-0 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="abt-main-title h-100">
+                        <h6 class="fw-bold text-uppercase text-muted">about</h6>
+                        <h1 class="fw-bold">Best Solution For Property Management</h1>
+                        <div class="inner-text">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est eligendi voluptatibus, sit
+                                temporibus delectus autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                                ad.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est eligendi voluptatibus, sit
+                                temporibus delectus autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                                ad.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est eligendi voluptatibus, sit
+                                temporibus delectus autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                                ad.</p>
+                        </div>
+                        <div class="ap-info mb-3">
+                            <a href="contact.html" class="btn sub-bg get-ap fw-bold rounded-0">Get Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- img about middle -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="abt-img">
+                        <img src="./assets/images/abt-img.jpeg" alt="about-img" class="img-fluid w-100 abt-img" />
+                    </div>
+                </div>
+                <!-- img abt end -->
+                <!-- abt graph -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <!-- box-1 -->
+                    <div class="abt-info rounded-3 shadow-sm py-4 px-3 my-lg-0 my-3">
+                        <div class="inner-abt-text d-flex">
+                            <h1 class="fw-bolder pe-3 display-4">100</h1>
+                            <div class="subtexts">
+                                <h5 class="fw-bolder fs-3">Qualified Workers</h5>
+                                <p class="text-muted fw-bolder">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                    elit. Iure, odio!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box-2 -->
+                    <div class="abt-info rounded-3 shadow-sm py-4 px-3 my-3">
+                        <div class="inner-abt-text d-flex">
+                            <h1 class="fw-bolder pe-3 display-4">200</h1>
+                            <div class="subtexts">
+                                <h5 class="fw-bolder fs-3">Qualified Engineers</h5>
+                                <p class="text-muted fw-bolder">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                    elit. Iure, odio!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box-3 -->
+                    <div class="abt-info rounded-3 shadow-sm py-4 px-3 my-3">
+                        <div class="inner-abt-text d-flex">
+                            <h1 class="fw-bolder pe-3 display-4">150</h1>
+                            <div class="subtexts">
+                                <h5 class="fw-bolder fs-3">Branches</h5>
+                                <p class="text-muted fw-bolder">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                    elit. Iure, odio!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- clint section starts -->
+    <section class="ezy__testimonial20 light">
+        <div class="container position-relative">
+            <h6 class="fw-bold text-uppercase text-muted mt-3">Testimonials</h6>
+            <div class="row justify-content-between mb-md-4">
+                <div class="col-12 col-lg-6 col-xl-5">
+                    <h2 class="ezy__testimonial20-heading mb-4">What Our Clients Say</h2>
+                    <p class="ezy__testimonial20-sub-heading mb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem aliquam explicabo, ex
+                        impedit reiciendis qui minima expedita, labore ad quam rerum eius fugit ipsam.
+                    </p>
+                </div>
+                <div
+                    class="col-12 col-sm-auto d-flex justify-content-end align-items-center position-relative mt-lg-0 mt-5">
+                    <button class="carousel-control-prev me-4" type="button"
+                        data-bs-target="#ezy__testimonial20-controls" data-bs-slide="prev">
+                        <i class="fas fa-angle-left"></i>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ezy__testimonial20-controls"
+                        data-bs-slide="next">
+                        <i class="fas fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div id="ezy__testimonial20-controls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner overflow-visible">
+                            <div class="carousel-item active">
+                                <div class="row mt-5">
+                                    <div class="col-md-6 col-lg-4 mt-4">
+                                        <div class="ezy__testimonial20-item px-4 py-4">
+                                            <div class="ezy__testimonial20-content mt-3">
+                                                <p class="mb-4 ezy__testimonial20-rating">
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star-half-alt active"></span>
+                                                    <span class="fas fa-star"></span>
+                                                </p>
+                                                <p class="opacity-50 mb-4">
+                                                    When it comes to booking a holiday, we know everyone likes something
+                                                    diff erent - so we've designed our getaways with you in mind.crises
+                                                    have deve loped many times throughout history
+                                                    when one or more risks have emerge d for a banking sector as a
+                                                    whole.
+                                                </p>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2">
+                                                        <img src="./assets/images/testimonial_square_1.jpeg" alt=""
+                                                            class="img-fluid rounded-circle border" width="47" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="mb-0 fw-bold">Lorem</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4">
+                                        <div class="ezy__testimonial20-item px-4 py-4">
+                                            <div class="ezy__testimonial20-content mt-3">
+                                                <p class="mb-4 ezy__testimonial20-rating">
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star-half-alt active"></span>
+                                                    <span class="fas fa-star"></span>
+                                                </p>
+                                                <p class="opacity-50 mb-4">
+                                                    When it comes to booking a holiday, we know everyone likes something
+                                                    diff erent - so we've designed our getaways with you in mind.crises
+                                                    have deve loped many times throughout history
+                                                    when one or more risks have emerge d for a banking sector as a
+                                                    whole.
+                                                </p>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2">
+                                                        <img src="./assets/images/testimonial_square_2.jpeg" alt=""
+                                                            class="img-fluid rounded-circle border" width="47" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="mb-0 fw-bold">Lorem</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4">
+                                        <div class="ezy__testimonial20-item px-4 py-4">
+                                            <div class="ezy__testimonial20-content mt-3">
+                                                <p class="mb-4 ezy__testimonial20-rating">
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star-half-alt active"></span>
+                                                    <span class="fas fa-star"></span>
+                                                </p>
+                                                <p class="opacity-50 mb-4">
+                                                    When it comes to booking a holiday, we know everyone likes something
+                                                    diff erent - so we've designed our getaways with you in mind.crises
+                                                    have deve loped many times throughout history
+                                                    when one or more risks have emerge d for a banking sector as a
+                                                    whole.
+                                                </p>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2">
+                                                        <img src="./assets/images/testimonial_square_3.jpeg" alt=""
+                                                            class="img-fluid rounded-circle border" width="47" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="mb-0 fw-bold">Lorem</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row mt-5">
+                                    <div class="col-md-6 col-lg-4 mt-4">
+                                        <div class="ezy__testimonial20-item px-4 py-4">
+                                            <div class="ezy__testimonial20-content mt-3">
+                                                <p class="mb-4 ezy__testimonial20-rating">
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star-half-alt active"></span>
+                                                    <span class="fas fa-star"></span>
+                                                </p>
+                                                <p class="opacity-50 mb-4">
+                                                    When it comes to booking a holiday, we know everyone likes something
+                                                    diff erent - so we've designed our getaways with you in mind.crises
+                                                    have deve loped many times throughout history
+                                                    when one or more risks have emerge d for a banking sector as a
+                                                    whole.
+                                                </p>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2">
+                                                        <img src="./assets/images/testimonial_square_1.jpeg" alt=""
+                                                            class="img-fluid rounded-circle border" width="47" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="mb-0 fw-bold">Lorem</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4">
+                                        <div class="ezy__testimonial20-item px-4 py-4">
+                                            <div class="ezy__testimonial20-content mt-3">
+                                                <p class="mb-4 ezy__testimonial20-rating">
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star-half-alt active"></span>
+                                                    <span class="fas fa-star"></span>
+                                                </p>
+                                                <p class="opacity-50 mb-4">
+                                                    When it comes to booking a holiday, we know everyone likes something
+                                                    diff erent - so we've designed our getaways with you in mind.crises
+                                                    have deve loped many times throughout history
+                                                    when one or more risks have emerge d for a banking sector as a
+                                                    whole.
+                                                </p>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2">
+                                                        <img src="./assets/images/testimonial_square_2.jpeg" alt=""
+                                                            class="img-fluid rounded-circle border" width="47" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="mb-0 fw-bold">Lorem</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4">
+                                        <div class="ezy__testimonial20-item px-4 py-4">
+                                            <div class="ezy__testimonial20-content mt-3">
+                                                <p class="mb-4 ezy__testimonial20-rating">
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star-half-alt active"></span>
+                                                    <span class="fas fa-star"></span>
+                                                </p>
+                                                <p class="opacity-50 mb-4">
+                                                    When it comes to booking a holiday, we know everyone likes something
+                                                    diff erent - so we've designed our getaways with you in mind.crises
+                                                    have deve loped many times throughout history
+                                                    when one or more risks have emerge d for a banking sector as a
+                                                    whole.
+                                                </p>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2">
+                                                        <img src="./assets/images/testimonial_square_3.jpeg" alt=""
+                                                            class="img-fluid rounded-circle border" width="47" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="mb-0 fw-bold">Lorem</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row mt-5">
+                                    <div class="col-md-6 col-lg-4 mt-4">
+                                        <div class="ezy__testimonial20-item px-4 py-4">
+                                            <div class="ezy__testimonial20-content mt-3">
+                                                <p class="mb-4 ezy__testimonial20-rating">
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star active"></span>
+                                                    <span class="fas fa-star-half-alt active"></span>
+                                                    <span class="fas fa-star"></span>
+                                                </p>
+                                                <p class="opacity-50 mb-4">
+                                                    When it comes to booking a holiday, we know everyone likes something
+                                                    diff erent - so we've designed our getaways with you in mind.crises
+                                                    have deve loped many times throughout history
+                                                    when one or more risks have emerge d for a banking sector as a
+                                                    whole.
+                                                </p>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-2">
+                                                        <img src="./assets/images/testimonial_square_1.jpeg" alt=""
+                                                            class="img-fluid rounded-circle border" width="47" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="mb-0 fw-bold">Lorem</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- clint section end -->
+    <!-- milestone section starts -->
+    <br>
+    <section class="mt-4 mb-4">
+        <div class="container">
+
+            <div class="row g-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="milestone-section">
+                        <h6 class="fw-bold text-uppercase text-muted">MILESTONE</h6>
+                        <div class="main-title">
+                            <h1 class="fw-bold ">Follow Our Journey to Be Best Property Management Services</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorem accusamus
+                                dicta dolor, incidunt laboriosam temporibus fugit officiis recusandae modi.</p>
+                        </div>
+                        <div class="about-sections">
+                            <a href="#?" class="btn sub-bg get-ap fw-bold rounded-0">About Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 my-2 my-md-auto ">
+                    <div class="row g-5">
+                        <div class="col-12">
+                            <div class="row  ">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-2 d-flex justify-content-center ">
+                                    <span class="ml-icons  ">
+                                        <i class="material-symbols-outlined fs-2">
+                                            sunny
+                                        </i>
+                                    </span>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-10 my-md-auto my-2">
+                                    <div class="description text-center text-lg-start ">
+                                        <h3>(1993) First Establishment of Vistya</h3>
+                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Quidem, optio?</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- box-2 -->
+                        <div class="col-12">
+                            <div class="row  ">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-2 d-flex justify-content-center ">
+                                    <span class="ml-icons  ">
+                                        <i class="fa-solid fa-hands-holding fs-4"></i>
+                                    </span>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-10 my-md-auto my-2">
+                                    <div class="description text-center text-lg-start ">
+                                        <h3>(1993) First Establishment of Vistya</h3>
+                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Quidem, optio?</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- box-2 end -->
+                        <!-- box-3 starts -->
+                        <div class="col-12">
+                            <div class="row  ">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-2 d-flex justify-content-center ">
+                                    <span class="ml-icons  ">
+                                        <i class="material-symbols-outlined fs-2">
+                                            source_environment
+                                        </i>
+                                    </span>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-10 my-md-auto my-2">
+                                    <div class="description text-center text-lg-start ">
+                                        <h3>(1993) First Establishment of Vistya</h3>
+                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Quidem, optio?</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- box-3 end -->
+                        <!-- box-4 starts -->
+                        <div class="col-12">
+                            <div class="row  ">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-2 d-flex justify-content-center ">
+                                    <span class="ml-icons  ">
+                                        <i class="material-symbols-outlined fs-2">
+                                            night_shelter
+                                        </i>
+                                    </span>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-10 my-md-auto my-2">
+                                    <div class="description text-center text-lg-start ">
+                                        <h3>(1993) First Establishment of Vistya</h3>
+                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Quidem, optio?</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- box-4 end -->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Milestone section end -->
+    <!-- faq section starts -->
+    <section class="ezy__faq8 light">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-5">
+                    <h2 class="ezy__faq8-heading mb-4">Frequently Asked Questions</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique rerum culpa, odio modi saepe
+                        cumque perferendis rem dolores consequuntur aliquid?
+                    </p>
+                    <div class="faq-btns">
+                        <a href="#?" class="btn sub-bg get-ap fw-bold rounded-0">FAQ'S</a>
+                    </div>
+                </div>
+                <div class="col-md-6 my-md-auto my-2">
+                    <div class="ezy__faq8-item">
+                        <a class="btn p-3 p-lg-4 w-100 text-start d-flex justify-content-between align-items-center ezy__faq8-btn-collapse"
+                            data-bs-toggle="collapse" href="#ezy-faq8-collapse-1" role="button" aria-expanded="true"
+                            aria-controls="ezy-faq8-collapse-1">
+                            <span>What is Vistya</span>
+                            <span class="fas fa-chevron-down"></span>
+                        </a>
+                        <div class="collapse show" id="ezy-faq8-collapse-1">
+                            <div class="ezy__faq8-content p-3 p-lg-4">
+                                <p class="opacity-50 mb-0">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa reiciendis
+                                    voluptates odio iusto, fuga architecto fugiat distinctio molestias. Neque!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ezy__faq8-item">
+                        <a class="btn p-3 p-lg-4 w-100 text-start d-flex justify-content-between align-items-center ezy__faq8-btn-collapse"
+                            data-bs-toggle="collapse" href="#ezy-faq8-collapse-2" role="button" aria-expanded="false"
+                            aria-controls="ezy-faq8-collapse-2">
+                            <span>Who is Vistya</span>
+                            <span class="fas fa-chevron-down"></span>
+                        </a>
+                        <div class="collapse" id="ezy-faq8-collapse-2">
+                            <div class="ezy__faq8-content p-3 p-lg-4">
+                                <p class="opacity-50 mb-0">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci officiis
+                                    molestias dolore corrupti magnam nihil doloribus ipsam ut eos. Illo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ezy__faq8-item">
+                        <a class="btn p-3 p-lg-4 w-100 text-start d-flex justify-content-between align-items-center ezy__faq8-btn-collapse"
+                            data-bs-toggle="collapse" href="#ezy-faq8-collapse-3" role="button" aria-expanded="false"
+                            aria-controls="ezy-faq8-collapse-3">
+                            <span>How does Vistya work?</span>
+                            <span class="fas fa-chevron-down"></span>
+                        </a>
+                        <div class="collapse" id="ezy-faq8-collapse-3">
+                            <div class="ezy__faq8-content p-3 p-lg-4">
+                                <p class="opacity-50 mb-0">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae. Sit ab
+                                    laboriosam corrupti qui accusamus culpa architecto doloremque nisi!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ezy__faq8-item">
+                        <a class="btn p-3 p-lg-4 w-100 text-start d-flex justify-content-between align-items-center ezy__faq8-btn-collapse"
+                            data-bs-toggle="collapse" href="#ezy-faq8-collapse-4" role="button" aria-expanded="false"
+                            aria-controls="ezy-faq8-collapse-4">
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <span class="fas fa-chevron-down"></span>
+                        </a>
+                        <div class="collapse" id="ezy-faq8-collapse-4">
+                            <div class="ezy__faq8-content p-3 p-lg-4">
+                                <p class="opacity-50 mb-0">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates exercitationem
+                                    neque quam nobis doloremque repellat voluptatem dolorem sint! Omnis, voluptas!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq section end -->
+    <div class="scroll">
+        <a href="#top" id="totop" class="scroll-top"><span></span></a>
+    </div>
+    <!-- footer section starts -->
+    <div class="container-fluid mt-3 px-0">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-white nav-top-bg">
+            <!-- Grid container -->
+            <div class="container p-4 pb-5">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h2 class="mb-4 fw-bold">
+                                Vistya
+                            </h2>
+                            <p>
+                                Vistya Property Management Services Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Quaerat, tempore!
+                            </p>
+                            <h4 class="sub-text">Follow Us</h4>
+                            <div class="social_icons d-flex justify-content-center justify-content-lg-start">
+                                <a class="btn-floating m-1 socail_icon justify-content-lg-start" href="#?"><i
+                                        class="fab fa-facebook-f text-white"></i></a>
+
+                                <!-- Twitter -->
+                                <a class="btn-floating m-1 socail_icon justify-content-lg-start" href="#?"><i
+                                        class="fab fa-x-twitter text-white"></i></a>
+
+                                <!-- Google -->
+                                <a class="btn-floating m-1 socail_icon justify-content-lg-start" href="#?"><i
+                                        class="fab fa-youtube text-white"></i></a>
+
+                                <!-- Instagram -->
+                                <a class="btn-floating m-1 socail_icon justify-content-lg-start" href="#?"><i
+                                        class="fab fa-instagram text-white"></i></a>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h4 class="mb-4 fw-bold sub-text">Quicklinks</h4>
+                            <p>
+                                <a class="text-white" href="about.html">About</a>
+                            </p>
+                            <p>
+                                <a class="text-white" href="services.html">Services</a>
+                            </p>
+                            <p>
+                                <a class="text-white" href="pricing.html">Pricing</a>
+                            </p>
+                            <p>
+                                <a class="text-white" href="testimonials.html">Testimonials</a>
+                            </p>
+                            <p>
+                                <a class="text-white" href="contact.html">Contact Us</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <!-- <hr class="w-100 clearfix d-md-none" /> -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h4 class="mb-4 fw-bold sub-text">Contact</h4>
+                            <p><i class="fas fa-home mr-3 me-2"></i>22-A Vistya,USA</p>
+                            <p><i class="fas fa-envelope mr-3 me-2"></i> info@gmail.com</p>
+                            <p><i class="fas fa-phone mr-3 me-2"></i> + 01 222 333 3333</p>
+                            <p><i class="fas fa-print mr-3 me-2"></i> + 01 333 333 3333</p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
+                            <h4 class="mb-4 font-weight-bold sub-text">Newsletter</h4>
+
+                            <div class="sub-form">
+                                <form class="d-flex flex-column">
+                                    <input type="text" class="form-control py-3 mb-3" placeholder="Enter Your Email" />
+                                    <a
+                                        class="btn text-cl sub-bg rounded-0 d-inline-block text-center fs-5  py-2">Subscribe</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-1 d-flex align-items-center justify-content-center sub-bg text-cl fw-bold">
+                Copyright <span class="d-flex align-items-center mt-2 fs-4 me-1 ms-1">©</span> 2024
+                <a class="text-cl ms-2" href="#?">Vistya</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- footer section end -->
+
+
+
+
+
+
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,486 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* html {
+    scroll-behavior: smooth;
+  }
+   */
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.nav-top-bg {
+    background-color: #161b39;
+}
+
+.socail_icon {
+    /* background: linear-gradient(356deg, rgb(108, 17, 182) 0%, rgb(180, 25, 161) 100%); */
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-bg {
+    background-color: #00d6a3;
+}
+.sub-text {
+    color: #00d6a3;
+}
+.get-ap {
+    padding: 15px 30px 15px 30px;
+}
+.get-ap:hover {
+    background-color: #ffffff;
+    color: #161b39 !important;
+}
+.text-cl {
+    color: #161b39;
+}
+.img-inner {
+    background-position: 320px -190px;
+    /* background-image: url(./group-of-doctors-talking-to-pharmaceutical-sales-r-2023-11-27-05-06-00-utc.jpg); */
+    object-fit: cover;
+}
+
+.inner-icons {
+    width: 83px;
+    height: 83px;
+    background: #00d6a3;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    margin: 0 auto 10px;
+}
+
+.inner-icons-2 {
+    width: 60px;
+    height: 60px;
+    background: #00d6a3;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+}
+.mt-40 {
+    margin-top: -40px;
+}
+
+/* .abt-img{
+    height: 504px;
+    object-fit: cover;
+} */
+
+@media (min-width: 992px) {
+    .h-vh {
+        height: 60vh;
+        object-fit: cover;
+    }
+    .abt-img {
+        height: 504px;
+        object-fit: cover;
+    }
+}
+
+.parallax-img {
+    background-image: url("../assets/images/prallax-img.jpeg");
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.ezy__testimonial20 {
+    /* Bootstrap variables */
+    --bs-body-color: #212529;
+    --bs-body-bg: rgb(255, 255, 255);
+
+    /* Easy Frontend variables */
+    --ezy-theme-color: rgb(13, 110, 253);
+    --ezy-theme-color-rgb: 13, 110, 253;
+    --ezy-rating-rgb: 255, 215, 0;
+    --ezy-item-bg: #ffffff;
+    --ezy-item-shadow: 0px 6px 44px rgba(173, 174, 197, 0.2);
+    --ezy-carousel-btn-shadow: -8px 25px 40px 0 rgba(0, 0, 0, 0.2);
+
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+/* @media (min-width: 768px) {
+    .ezy__testimonial20 {
+        padding: 100px 0;
+    }
+} */
+
+/* Gray Block Style */
+.gray .ezy__testimonial20,
+.ezy__testimonial20.gray {
+    /* Bootstrap variables */
+    --bs-body-bg: rgb(246, 246, 246);
+
+    /* Easy Frontend variables */
+    --ezy-item-bg: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__testimonial20,
+.ezy__testimonial20.dark-gray {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(30, 39, 53);
+
+    /* Easy Frontend variables */
+    --ezy-item-bg: rgb(11, 23, 39);
+    --ezy-item-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+    --ezy-carousel-btn-shadow: -8px 25px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Block Style */
+.dark .ezy__testimonial20,
+.ezy__testimonial20.dark {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(11, 23, 39);
+
+    /* Easy Frontend variables */
+    --ezy-item-bg: rgb(30, 39, 53);
+    --ezy-item-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+    --ezy-carousel-btn-shadow: -8px 25px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ezy__testimonial20-heading {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+@media (min-width: 768px) {
+    .ezy__testimonial20-heading {
+        font-size: 45px;
+        line-height: 45px;
+    }
+}
+
+.ezy__testimonial20-sub-heading {
+    font-size: 18px !important;
+    line-height: 1.6;
+}
+
+.ezy__testimonial20-item {
+    background-color: var(--ezy-item-bg);
+    box-shadow: var(--ezy-item-shadow);
+    border-radius: 15px;
+    transition: transform 0.25s ease-in-out;
+}
+
+.ezy__testimonial20-item:hover {
+    transform: translateY(-5px);
+}
+
+.ezy__testimonial20-item > img {
+    border-radius: 15px;
+    margin-top: -85px;
+}
+
+.ezy__testimonial20-content * {
+    color: var(--bs-body-color);
+}
+
+.ezy__testimonial20-social-links a {
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.ezy__testimonial20-social-links a:hover {
+    transform: translateY(5px);
+    color: var(--bs-body-color);
+    opacity: 1;
+}
+
+.ezy__testimonial20-rating [class*="fa-"]:not(.active),
+.ezy__testimonial20-rating [class*="fa-"]:not(.active) * {
+    font-size: 22px;
+    color: rgba(var(--ezy-rating-rgb), 0.2);
+}
+
+.ezy__testimonial20-rating [class*="fa-"].active,
+.ezy__testimonial20-rating [class*="fa-"].active * {
+    font-size: 22px;
+    color: rgba(var(--ezy-rating-rgb), 1);
+}
+
+.ezy__testimonial20 .carousel-control-prev,
+.ezy__testimonial20 .carousel-control-next {
+    position: relative;
+    min-width: 50px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--ezy-carousel-btn-shadow);
+    color: var(--bs-body-color);
+}
+.ezy__testimonial20 .carousel-control-prev:hover,
+.ezy__testimonial20 .carousel-control-next:hover {
+    color: var(--bs-body-color);
+}
+
+.ezy__testimonial20 p {
+    line-height: 1.8;
+}
+
+/* services section */
+
+.description-text {
+    right: -15px;
+}
+
+.scroll-top {
+    /* position: fixed;
+    display: inline-block;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+    background: #161b39;
+    border-radius: 100%;
+    cursor: pointer;
+    display: none;
+    z-index: 1; */
+    position: fixed;
+    display: inline-block;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+    background: #161b39;
+    border-radius: 100%;
+    cursor: pointer;
+    display: none;
+  
+}
+
+.scroll-top span {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #00d6a3; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #00d6a3;
+    color: #ffffff;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+    background-color: #00d6a3 !important;
+}
+
+/* milstone section */
+.ml-icons{
+    width: 83px;
+    height: 83px;
+    background: #00d6a3;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    
+}
+
+/* faq section */
+
+.ezy__faq8 {
+  /* Bootstrap variables */
+  --bs-body-color: #28303b;
+  --bs-body-bg: rgb(255, 255, 255);
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-item-bg: #ffffff;
+  --ezy-item-shadow: 0px 4px 44px rgba(159, 190, 218, 0.37);
+
+  background-color: var(--bs-body-bg);
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ezy__faq8 {
+    padding: 100px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__faq8,
+.ezy__faq8.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__faq8,
+.ezy__faq8.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* Easy Frontend variables */
+  --ezy-item-bg: rgb(11, 23, 39);
+  --ezy-item-shadow: 0px 4px 22px rgba(0, 0, 0, 0.47);
+}
+
+/* Dark Block Style */
+.dark .ezy__faq8,
+.ezy__faq8.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* Easy Frontend variables */
+  --ezy-item-bg: rgb(30, 39, 53);
+  --ezy-item-shadow: 0px 4px 22px rgba(0, 0, 0, 0.2);
+}
+
+.ezy__faq8-heading {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+  .ezy__faq8-heading {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+.ezy__faq8-sub-heading {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--bs-body-color);
+  opacity: 0.7;
+}
+
+.ezy__faq8-item {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.ezy__faq8-item * {
+  color: var(--bs-body-color);
+}
+
+.ezy__faq8-btn-collapse [class*="fa-"] {
+  transition: transform 0.25s ease-in-out;
+}
+
+.ezy__faq8-btn-collapse:focus {
+  box-shadow: none;
+}
+
+.ezy__faq8-btn-collapse.active [class*="fa-"],
+.ezy__faq8-btn-collapse[aria-expanded="true"] [class*="fa-"] {
+  transform: rotate(-180deg);
+}
+
+.ezy__faq8 .collapsing,
+.ezy__faq8 .collapse {
+  background-color: var(--ezy-item-bg);
+  box-shadow: var(--ezy-item-shadow);
+  border-radius: 15px;
+}
+
+.ezy__faq8-btn {
+  padding: 12px 30px;
+  border-color: var(--ezy-theme-color);
+  color: var(--ezy-theme-color);
+}
+
+.ezy__faq8-btn:hover {
+  color: #fff;
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+  border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+/* contact us section */
+.inputs{
+ border-left: none;
+ border-right: none;
+border-top: none;
+border-bottom: 1px solid;
+}
+
+.inputs:focus{
+   box-shadow: none;
+   border-bottom: 1px solid #00d6a3;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: #161b39;
+    background-color: #00d6a3;
+}
+
+.nav-link:hover{
+color: #161b39;
+}
+
+.inner-bottom{
+    margin-bottom: 30px;
+}
